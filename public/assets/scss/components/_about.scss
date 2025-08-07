@@ -91,21 +91,20 @@ img.circle-text {
   }
 }
 
-
 .about-author-3 {
   background: $color9;
   border-radius: 7px;
   padding: 24px 24px 24px 102px;
   position: relative;
   z-index: 2;
-  transition: all .3s;
-  &:hover{
+  transition: all 0.3s;
+  &:hover {
     transform: scale(1.1);
-    transition: all .3s;
+    transition: all 0.3s;
   }
 
-h5.author-desc,
-h5.author-desc a {
+  h5.author-desc,
+  h5.author-desc a {
     font-family: $font3;
     font-weight: $medium;
     font-size: 16px;
@@ -126,7 +125,7 @@ h5.author-desc a {
   }
 
   p {
-    font-family:$font3;
+    font-family: $font3;
     font-weight: $medium;
     font-size: 16px;
     line-height: 24px;
@@ -209,9 +208,9 @@ h5.author-desc a {
     height: 1000px;
     top: -200px;
     left: -200px;
-  img{
-    animation: upNdown 5s infinite linear alternate;
-  }
+    img {
+      animation: upNdown 5s infinite linear alternate;
+    }
     @media #{$xs} {
       display: none;
     }
@@ -227,7 +226,7 @@ h5.author-desc a {
     padding: 17px;
 
     p {
-      font-family:$font3;
+      font-family: $font3;
       font-weight: $medium;
       font-size: 20px;
       line-height: 30px;
@@ -293,11 +292,9 @@ h5.author-desc a {
   }
 }
 
-
 .inner-1 {
-   padding: 175px 0 100px;
+  padding: 175px 0 100px;
 }
-
 
 .inner-title {
   p {
@@ -310,7 +307,7 @@ h5.author-desc a {
     @media #{$xs} {
       font-size: 18px;
     }
- }
+  }
   h2 {
     font-family: $font3;
     font-weight: $bold;
@@ -319,8 +316,8 @@ h5.author-desc a {
     letter-spacing: -1px;
     color: $secondary_color;
     @media #{$xs} {
-     font-size: 32px;
-     line-height: 44px;;
+      font-size: 32px;
+      line-height: 44px;
     }
- }
+  }
 }
