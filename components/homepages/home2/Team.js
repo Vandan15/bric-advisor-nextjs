@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Team() {
   return (
     <>
-      <div className="team-2 section-padding2">
+      <div className="team-2 section-padding2" id="teams">
         <div className="container">
           <div className="row">
             <div className="col-lg-8 m-auto">
@@ -33,13 +33,13 @@ export default function Team() {
                   <div className="team-img">
                     <img src="/assets/img/team/team9.jpg" alt="" />
                   </div>
-                  <div className="team-content bg-18">
+                  <div className="team-content bg9">
                     <Link href="#">Neville Desai</Link>
                     <p>Business Development</p>
                   </div>
                 </div>
                 <div className="team-sides team-back-side">
-                  <div className="team-content bg-18">
+                  <div className="team-content bg9">
                     <Link href="#">Neville Desai</Link>
                     {/* <p>Senior Consultant</p> */}
                     <div className="space10" />
@@ -72,15 +72,6 @@ export default function Team() {
                             <i className="fa-brands fa-instagram" />
                           </Link>
                         </li>
-                        <li>
-                          <Link
-                            data-bs-toggle="tooltip"
-                            title="TikTok"
-                            href="#"
-                          >
-                            <i className="fa-brands fa-tiktok" />
-                          </Link>
-                        </li>
                       </ul>
                     </div>
                   </div>
@@ -97,13 +88,13 @@ export default function Team() {
                   <div className="team-img">
                     <img src="/assets/img/team/team11.jpg" alt="" />
                   </div>
-                  <div className="team-content bg-18">
+                  <div className="team-content bg9">
                     <Link href="#">Pinaki Kotecha</Link>
                     <p>Strategy & Marketing</p>
                   </div>
                 </div>
                 <div className="team-sides team-back-side">
-                  <div className="team-content bg-18">
+                  <div className="team-content bg9">
                     <Link href="#">Pinaki Kotecha</Link>
                     {/* <p>Group manager</p> */}
                     <div className="space10" />
@@ -136,15 +127,6 @@ export default function Team() {
                             <i className="fa-brands fa-instagram" />
                           </Link>
                         </li>
-                        <li>
-                          <Link
-                            data-bs-toggle="tooltip"
-                            title="TikTok"
-                            href="#"
-                          >
-                            <i className="fa-brands fa-tiktok" />
-                          </Link>
-                        </li>
                       </ul>
                     </div>
                   </div>
@@ -161,13 +143,13 @@ export default function Team() {
                   <div className="team-img">
                     <img src="/assets/img/team/team10.jpg" alt="" />
                   </div>
-                  <div className="team-content bg-18">
+                  <div className="team-content bg9">
                     <Link href="#">Tosif Shaikh</Link>
                     <p>Operations & Brand Development</p>
                   </div>
                 </div>
                 <div className="team-sides team-back-side">
-                  <div className="team-content bg-18">
+                  <div className="team-content bg9">
                     <Link href="#">Tosif Shaikh</Link>
                     {/* <p>Associate Consultant</p> */}
                     <div className="space10" />
@@ -200,15 +182,6 @@ export default function Team() {
                             <i className="fa-brands fa-instagram" />
                           </Link>
                         </li>
-                        <li>
-                          <Link
-                            data-bs-toggle="tooltip"
-                            title="TikTok"
-                            href="#"
-                          >
-                            <i className="fa-brands fa-tiktok" />
-                          </Link>
-                        </li>
                       </ul>
                     </div>
                   </div>
@@ -225,13 +198,13 @@ export default function Team() {
                   <div className="team-img">
                     <img src="/assets/img/team/team12.jpg" alt="" />
                   </div>
-                  <div className="team-content bg-18">
+                  <div className="team-content bg9">
                     <Link href="#">Kashish Poojara</Link>
                     <p>Legal & Compliance</p>
                   </div>
                 </div>
                 <div className="team-sides team-back-side">
-                  <div className="team-content bg-18">
+                  <div className="team-content bg9">
                     <Link href="#">Kashish Poojara</Link>
                     {/* <p>Consultant Analytics</p> */}
                     <div className="space10" />
@@ -262,15 +235,6 @@ export default function Team() {
                             href="#"
                           >
                             <i className="fa-brands fa-instagram" />
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            data-bs-toggle="tooltip"
-                            title="TikTok"
-                            href="#"
-                          >
-                            <i className="fa-brands fa-tiktok" />
                           </Link>
                         </li>
                       </ul>

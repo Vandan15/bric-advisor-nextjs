@@ -9,14 +9,15 @@ export default function About3() {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="heading2 no-margin-heading ml50">
-                {/* <small
+                <small
                   data-aos="fade-left"
                   data-aos-duration={600}
                   className="heading-top"
                 >
                   <img src="/assets/img/icons/hands.svg" alt="" />
-                  From Flagship to Footprint, Why BRIC?
-                </small> */}
+                  “If you’re ready to build a network, not just open a store,
+                  our door is open.”
+                </small>
                 <h2 data-aos="fade-left" data-aos-duration={800}>
                   Who Should Call Us?
                 </h2>

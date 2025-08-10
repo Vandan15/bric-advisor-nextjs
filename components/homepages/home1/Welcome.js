@@ -1,4 +1,3 @@
-import LogoSlider2 from "@/components/slider/LogoSlider2";
 import Link from "next/link";
 
 export default function Welcome() {
@@ -44,15 +43,15 @@ export default function Welcome() {
                     </span>
                   </Link> */}
                 </div>
-                <div className="space80" />
-                <div
+                {/* <div className="space80" /> */}
+                {/* <div
                   className="logo-area2"
                   data-aos="fade-right"
                   data-aos-duration={1400}
                 >
                   <p>Trusted by Ambitious Brands Across Surat and Gujarat</p>
                   <LogoSlider2 />
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-lg-6 d-none d-lg-block">

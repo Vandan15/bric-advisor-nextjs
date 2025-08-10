@@ -1,9 +1,7 @@
-import Link from "next/link";
-
 export default function TaxBusiness() {
   return (
     <>
-      <div className="tax-business section-padding2 bg6" id="about">
+      <div className="tax-business section-padding2 bg6" id="core-services">
         <div className="container">
           <div className="row">
             <div className="col-md-4 m-auto">
@@ -112,7 +110,7 @@ export default function TaxBusiness() {
                 </Link> */}
               </div>
             </div>
-            <div className="space20" />
+            {/* <div className="space20" />
             <div
               className="col-12 text-center"
               data-aos="fade-up"
@@ -124,7 +122,7 @@ export default function TaxBusiness() {
                   <i className="fa-solid fa-arrow-right" />
                 </span>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

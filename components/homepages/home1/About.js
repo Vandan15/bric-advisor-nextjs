@@ -4,7 +4,7 @@ import { CheckCircleIcon } from "@phosphor-icons/react";
 export default function About() {
   return (
     <>
-      <div className="about-area section-padding bg5-left">
+      <div className="about-area section-padding bg5-left" id="about-us">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">

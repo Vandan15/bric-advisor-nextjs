@@ -1,7 +1,10 @@
 export default function Service() {
   return (
     <>
-      <div className="service-area section-padding2 position-relative bg5">
+      <div
+        className="service-area section-padding2 position-relative bg5"
+        id="services"
+      >
         <div className="container">
           <div className="row">
             <div className="col-md-8 m-auto">

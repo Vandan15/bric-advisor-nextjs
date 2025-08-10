@@ -9,7 +9,7 @@ export default function Logo() {
             <div className="col-md-8 m-auto">
               <div className="heading text-center">
                 <h5 data-aos="fade-up" data-aos-duration={600}>
-                  Trusted by more than 400+ companies worldwidesas
+                  Trusted by Ambitious Brands Across Surat and Gujarat
                 </h5>
               </div>
             </div>

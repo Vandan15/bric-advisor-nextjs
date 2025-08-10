@@ -1827,7 +1827,7 @@ img {
   }
 }
 .heading2 small.heading-top.inner-heading-top {
-  background: rgba(121, 119, 198, 0.2);
+  background: #e7edeb;
 }
 .heading2 small.heading-top img {
   width: 24px;
@@ -3313,17 +3313,20 @@ a.footer-logo {
 .single-contact {
   position: relative;
   z-index: 2;
-  padding-left: 45px;
+  /* padding-left: 45px; */
   margin-bottom: 20px;
+  display: flex;
+  gap: 4px;
+  align-items: center;
 }
 .single-contact:last-child {
   margin-bottom: 0;
 }
 
 .contact-icon {
-  position: absolute;
+  /* position: absolute;
   left: 0;
-  top: 5px;
+  top: 5px; */
   width: 32px;
   height: 32px;
   background: #fee6e5;
@@ -3388,6 +3391,13 @@ a.footer-logo {
   margin-top: 80px;
   padding: 30px 0;
   border-top: 1px solid #d3dbd8;
+}
+.copyright2 .link {
+  font-size: 16px;
+  color: #09120e;
+}
+.copyright2 .link:hover {
+  color: #243d31;
 }
 .copyright2 .social2 {
   text-align: right;
@@ -5678,6 +5688,10 @@ img.circle-text {
 .single-team .team-content .team-socials {
   transition: all 0.3s;
 }
+.single-team .team-content .team-socials ul {
+  display: flex;
+  gap: 4px;
+}
 .single-team .team-content .team-socials li {
   display: inline-block;
 }
@@ -5761,7 +5775,7 @@ img.circle-text {
   border-radius: 8px;
 }
 .team-2 .team-back-side {
-  background-color: #dce0f3;
+  background-color: #e7edeb;
   transform: rotateY(180deg);
   border-radius: 8px;
   display: flex;
@@ -6929,7 +6943,7 @@ img.contact-shape1 {
 .main-form input,
 .main-form textarea {
   margin-bottom: 24px;
-  background: #e7e8f4;
+  background: #e7edeb;
   border-radius: 5px;
   border: none;
   padding: 20px 20px;
@@ -7993,7 +8007,7 @@ li.multi-dropdown-parrent:hover > ul.multi-dropdown.theme-dropdown {
   position: fixed;
   height: 100%;
   width: 100%;
-  background: #5c5b79;
+  background: #255c4a;
   z-index: 99;
   padding: 40px 30px;
   left: -100%;
@@ -8024,7 +8038,7 @@ li.multi-dropdown-parrent:hover > ul.multi-dropdown.theme-dropdown {
 .mobile-nav li a {
   font-size: 18px;
   line-height: 24px;
-  color: #ffffff;
+  color: #ffffff !important;
   padding: 10px 0;
   display: block;
 }
@@ -9390,6 +9404,7 @@ a.up-arrow.up-4:hover {
   list-style-position: inside;
   padding-left: 16px;
 }
-
-.about-area .heading-text {
+.main-contact-form .error-text {
+  font-size: 14px;
+  color: red;
 }
