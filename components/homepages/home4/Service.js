@@ -1,3 +1,15 @@
+"use client";
+import {
+  ChartScatterIcon,
+  FileIcon,
+  FileTextIcon,
+  GaugeIcon,
+  MagnifyingGlassIcon,
+  ShoppingBagOpenIcon,
+  SignInIcon,
+  UserIcon,
+} from "@phosphor-icons/react";
+
 export default function Service() {
   return (
     <>
@@ -29,7 +41,7 @@ export default function Service() {
             >
               <div className="single-service">
                 <div className="service-icon">
-                  <img src="/assets/img/icons/service1.png" alt="" />
+                  <MagnifyingGlassIcon size={32} color="#4c2e88" />
                 </div>
                 <div className="service-content">
                   <h3>Brand/Franchise Diagnostics</h3>
@@ -44,7 +56,7 @@ export default function Service() {
             >
               <div className="single-service">
                 <div className="service-icon">
-                  <img src="/assets/img/icons/service2.png" alt="" />
+                  <GaugeIcon size={32} color="#4c2e88" />
                 </div>
                 <div className="service-content">
                   <h3>Brand/Franchise Strategy</h3>
@@ -59,7 +71,7 @@ export default function Service() {
             >
               <div className="single-service">
                 <div className="service-icon">
-                  <img src="/assets/img/icons/service3.png" alt="" />
+                  <FileTextIcon size={32} color="#4c2e88" />
                 </div>
                 <div className="service-content">
                   <h3>Brand/Franchise Materials</h3>
@@ -76,7 +88,7 @@ export default function Service() {
             >
               <div className="single-service">
                 <div className="service-icon">
-                  <img src="/assets/img/icons/service4.png" alt="" />
+                  <UserIcon size={32} color="#4c2e88" />
                 </div>
                 <div className="service-content">
                   <h3>Human Resources</h3>
@@ -94,7 +106,7 @@ export default function Service() {
             >
               <div className="single-service">
                 <div className="service-icon">
-                  <img src="/assets/img/icons/service5.png" alt="" />
+                  <FileIcon size={32} color="#4c2e88" />
                 </div>
                 <div className="service-content">
                   <h3>Legal & Compliance</h3>
@@ -109,7 +121,7 @@ export default function Service() {
             >
               <div className="single-service">
                 <div className="service-icon">
-                  <img src="/assets/img/icons/service6.png" alt="" />
+                  <ShoppingBagOpenIcon size={32} color="#4c2e88" />
                 </div>
                 <div className="service-content">
                   <h3>Branding/Marketing</h3>
@@ -124,7 +136,7 @@ export default function Service() {
             >
               <div className="single-service">
                 <div className="service-icon">
-                  <img src="/assets/img/icons/service6.png" alt="" />
+                  <SignInIcon size={32} color="#4c2e88" />
                 </div>
                 <div className="service-content">
                   <h3>Partner Onboarding</h3>
@@ -139,7 +151,7 @@ export default function Service() {
             >
               <div className="single-service">
                 <div className="service-icon">
-                  <img src="/assets/img/icons/service6.png" alt="" />
+                  <ChartScatterIcon size={32} color="#4c2e88" />
                 </div>
                 <div className="service-content">
                   <h3>Performance Tracking</h3>

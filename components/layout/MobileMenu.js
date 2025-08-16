@@ -1,3 +1,4 @@
+import { XIcon } from "@phosphor-icons/react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
@@ -48,7 +49,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
         className={`mobile-sidebar ${isMobileMenu ? "mobile-menu-active" : ""}`}
       >
         <div className="menu-close" onClick={handleMobileMenu}>
-          <i className="fa-solid fa-xmark" />
+          <XIcon />
         </div>
         <div className="mobile-nav">
           <ul className="mobile-nav-list">
@@ -392,7 +393,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
           </ul>
           <div className="mobile-contact">
             <div className="single-footer">
-              <h3>Get in touch</h3>
+              {/* <h3>Get in touch</h3> */}
               <a
                 className="theme-btn-2 ms-0"
                 onClick={() => handleRedirect("/#contact")}
