@@ -1535,7 +1535,7 @@ img {
 .title.title2 h1 {
   font-weight: 700;
   color: #09120e;
-  font-size: 65px;
+  font-size: 58px;
   line-height: 75px;
   margin-bottom: 10px;
   font-family: "satoshi";
@@ -2791,7 +2791,7 @@ img {
 .welcome-area {
   display: flex;
   align-items: center;
-  height: 950px;
+  height: auto;
 }
 @media (max-width: 991px) {
   .welcome-area {
@@ -2863,13 +2863,14 @@ img {
 }
 
 .hero-main-img {
-  height: 700px;
+  /* height: 700px; */
+  max-width: 500px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+/* @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .hero-main-img {
     height: 500px;
   }
-}
+} */
 @media (max-width: 991px) {
   .hero-main-img {
     height: auto;

@@ -12,9 +12,13 @@ export default function Footer1() {
               <div className="single-footer">
                 <Link href="/" className="footer-logo">
                   {" "}
-                  <img src="/assets/img/logo/site-logo-3.svg" alt="" />
+                  <img
+                    src="/assets/img/logo/bric-logo.png"
+                    alt=""
+                    width={120}
+                  />
                 </Link>
-                <div className="space20" />
+                {/* <div className="space20" /> */}
                 <p>
                   Fueling the ambitions of India’s most enterprising brands. We
                   turn proven business models into scalable, profitable
