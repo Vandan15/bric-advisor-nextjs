@@ -1,6 +1,8 @@
 import { EnvelopeIcon, PhoneIcon } from "@phosphor-icons/react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 export default function Footer1() {
+  const pathname = usePathname();
   return (
     <>
       <footer className="footer-area padding-top footer-2 bg9">
@@ -53,10 +55,22 @@ export default function Footer1() {
                       <Link href="/#teams">Our Team</Link>
                     </li>
                     <li>
-                      <Link href="/policy">Privacy Policy</Link>
+                      <Link
+                        href="/privacy"
+                        className={
+                          pathname?.includes("privacy") ? "active" : ""
+                        }
+                      >
+                        Privacy Policy
+                      </Link>
                     </li>
                     <li>
-                      <Link href="/terms">Terms & Conditions</Link>
+                      <Link
+                        href="/terms"
+                        className={pathname?.includes("terms") ? "active" : ""}
+                      >
+                        Terms & Conditions
+                      </Link>
                     </li>
                   </ul>
                 </div>
