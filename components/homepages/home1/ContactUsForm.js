@@ -127,7 +127,7 @@ export default function ContactUsForm() {
                     />
                     {errors.company && <ErrorText text={errors.company} />}
                   </div>
-                  <div className="col-lg-6">
+                  <div className="col-lg-6 mb-3">
                     <input
                       type="text"
                       name="phone"

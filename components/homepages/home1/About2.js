@@ -1,4 +1,11 @@
+"use client";
 import CounterUp from "@/components/elements/CounterUp";
+import {
+  ChartLineUpIcon,
+  FileTextIcon,
+  GlobeIcon,
+  UsersIcon,
+} from "@phosphor-icons/react";
 
 export default function About2() {
   return (
@@ -58,7 +65,7 @@ export default function About2() {
                       data-aos-duration={600}
                     >
                       <div className="conter-icon">
-                        <img src="/assets/img/icons/counter21.png" alt="" />
+                        <UsersIcon size={32} color="#fba01b" />
                       </div>
                       <h2>
                         <CounterUp count={40} />+
@@ -71,7 +78,7 @@ export default function About2() {
                       data-aos-duration={800}
                     >
                       <div className="conter-icon">
-                        <img src="/assets/img/icons/counter22.png" alt="" />
+                        <ChartLineUpIcon size={32} color="#fba01b" />
                       </div>
                       <h2>20–50% YoY increase post-engagement</h2>
                       <p>Revenue Uplift</p>
@@ -84,7 +91,7 @@ export default function About2() {
                       data-aos-duration={1000}
                     >
                       <div className="conter-icon">
-                        <img src="/assets/img/icons/counter23.png" alt="" />
+                        <FileTextIcon size={32} color="#fba01b" />
                       </div>
                       <h2>200 Crores+</h2>
                       <p>Turnover Guided</p>
@@ -95,7 +102,7 @@ export default function About2() {
                       data-aos-duration={1200}
                     >
                       <div className="conter-icon">
-                        <img src="/assets/img/icons/counter24.png" alt="" />
+                        <GlobeIcon size={32} color="#fba01b" />
                       </div>
                       <h2>Textiles, Diamonds, FMCG, Pharma, Retail & more</h2>
                       <p>Industry Reach</p>

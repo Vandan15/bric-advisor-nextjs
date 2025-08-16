@@ -17,7 +17,11 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
                 <div className="header_menu_area">
                   <div className="logo">
                     <Link href="/#home">
-                      <img src="/assets/img/logo/site-logo-3.svg" alt="" />
+                      <img
+                        src="/assets/img/logo/bric-logo.png"
+                        width={120}
+                        alt=""
+                      />
                     </Link>
                   </div>
                   <div className="main-menu">

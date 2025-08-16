@@ -1,6 +1,8 @@
 import { EnvelopeIcon, PhoneIcon } from "@phosphor-icons/react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 export default function Footer1() {
+  const pathname = usePathname();
   return (
     <>
       <footer className="footer-area padding-top footer-2 bg9">
@@ -10,9 +12,13 @@ export default function Footer1() {
               <div className="single-footer">
                 <Link href="/" className="footer-logo">
                   {" "}
-                  <img src="/assets/img/logo/site-logo-3.svg" alt="" />
+                  <img
+                    src="/assets/img/logo/bric-logo.png"
+                    alt=""
+                    width={120}
+                  />
                 </Link>
-                <div className="space20" />
+                {/* <div className="space20" /> */}
                 <p>
                   Fueling the ambitions of India’s most enterprising brands. We
                   turn proven business models into scalable, profitable
@@ -47,16 +53,28 @@ export default function Footer1() {
                 <div className="footer-menu">
                   <ul>
                     <li>
-                      <Link href="#about-us">About us</Link>
+                      <Link href="/#about-us">About us</Link>
                     </li>
                     <li>
                       <Link href="/#teams">Our Team</Link>
                     </li>
                     <li>
-                      <Link href="/policy">Privacy Policy</Link>
+                      <Link
+                        href="/privacy"
+                        className={
+                          pathname?.includes("privacy") ? "active" : ""
+                        }
+                      >
+                        Privacy Policy
+                      </Link>
                     </li>
                     <li>
-                      <Link href="/terms">Terms & Conditions</Link>
+                      <Link
+                        href="/terms"
+                        className={pathname?.includes("terms") ? "active" : ""}
+                      >
+                        Terms & Conditions
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -69,8 +87,8 @@ export default function Footer1() {
                   <div className="single-contact">
                     <div className="single-contact">
                       <PhoneIcon />
-                      <Link href="tel:+91 9999999999" className="mb-0">
-                        +91 9999999999
+                      <Link href="tel:+91 8320967688" className="mb-0">
+                        +91 8320967688
                       </Link>
                     </div>
                   </div>

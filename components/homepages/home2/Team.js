@@ -31,7 +31,7 @@ export default function Team() {
               <div className="single-team">
                 <div className="team-sides team-font-side">
                   <div className="team-img">
-                    <img src="/assets/img/team/team9.jpg" alt="" />
+                    <img src="/assets/img/team/neville-desai.png" alt="" />
                   </div>
                   <div className="team-content bg9">
                     <Link href="#">Neville Desai</Link>
@@ -86,7 +86,7 @@ export default function Team() {
               <div className="single-team">
                 <div className="team-sides team-font-side">
                   <div className="team-img">
-                    <img src="/assets/img/team/team11.jpg" alt="" />
+                    <img src="/assets/img/team/pinaki-kotecha.png" alt="" />
                   </div>
                   <div className="team-content bg9">
                     <Link href="#">Pinaki Kotecha</Link>
@@ -141,7 +141,7 @@ export default function Team() {
               <div className="single-team">
                 <div className="team-sides team-font-side">
                   <div className="team-img">
-                    <img src="/assets/img/team/team10.jpg" alt="" />
+                    <img src="/assets/img/team/tosif-shaikh.png" alt="" />
                   </div>
                   <div className="team-content bg9">
                     <Link href="#">Tosif Shaikh</Link>
@@ -196,7 +196,7 @@ export default function Team() {
               <div className="single-team">
                 <div className="team-sides team-font-side">
                   <div className="team-img">
-                    <img src="/assets/img/team/team12.jpg" alt="" />
+                    <img src="/assets/img/team/kashish-poojara.png" alt="" />
                   </div>
                   <div className="team-content bg9">
                     <Link href="#">Kashish Poojara</Link>
