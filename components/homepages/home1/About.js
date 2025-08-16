@@ -4,7 +4,7 @@ import { CheckCircleIcon } from "@phosphor-icons/react";
 export default function About() {
   return (
     <>
-      <div className="about-area section-padding bg5-left" id="about-us">
+      <div className="about-area section-padding" id="about-us">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
@@ -13,17 +13,21 @@ export default function About() {
                 data-aos="zoom-out"
                 data-aos-duration={800}
               >
-                <div className="about-bg-main-img position-relative top-left-polygon-1">
-                  <img src="/assets/img/about/about21.png" alt="" />
+                <div className="about-bg-main-img position-relative">
+                  <img
+                    src="/assets/img/about/foot-prints.jpg"
+                    className="call-img"
+                    alt=""
+                  />
                   <div className="corner-right-bottom-shape2 position-absolute">
                     <img
                       src="/assets/img/shapes/shape-right-bottom2.png"
                       alt=""
                     />
                   </div>
-                  <div className="corner-shape2-left position-absolute">
+                  {/* <div className="corner-shape2-left position-absolute">
                     <img src="/assets/img/shapes/tax-shape2.png" alt="" />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

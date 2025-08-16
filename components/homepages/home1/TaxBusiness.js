@@ -1,3 +1,12 @@
+"use client";
+import {
+  BrainIcon,
+  BuildingsIcon,
+  FileIcon,
+  FileTextIcon,
+  ShoppingBagIcon,
+} from "@phosphor-icons/react";
+
 export default function TaxBusiness() {
   return (
     <>
@@ -29,7 +38,7 @@ export default function TaxBusiness() {
             >
               <div className="single-business trans-1">
                 <div className="business-icon">
-                  <img src="/assets/img/icons/tax-business1.png" alt="" />
+                  <BuildingsIcon size={40} />
                 </div>
                 <h3>Business Development</h3>
                 <p>
@@ -44,7 +53,7 @@ export default function TaxBusiness() {
             >
               <div className="single-business trans-1">
                 <div className="business-icon">
-                  <img src="/assets/img/icons/tax-business2.png" alt="" />
+                  <ShoppingBagIcon size={40} />
                 </div>
                 <h3>Brand & Marketing</h3>
                 <p>
@@ -66,7 +75,7 @@ export default function TaxBusiness() {
             >
               <div className="single-business trans-1">
                 <div className="business-icon">
-                  <img src="/assets/img/icons/tax-business4.png" alt="" />
+                  <BrainIcon size={40} />
                 </div>
                 <h3>Talent & Training</h3>
                 <p>Recruitment, onboarding, and capability building.</p>
@@ -85,7 +94,7 @@ export default function TaxBusiness() {
             >
               <div className="single-business trans-1">
                 <div className="business-icon">
-                  <img src="/assets/img/icons/tax-business4.png" alt="" />
+                  <FileIcon size={40} />
                 </div>
                 <h3>Compliance</h3>
                 <p>Contracts, due diligence, legal audits.</p>
@@ -98,7 +107,7 @@ export default function TaxBusiness() {
             >
               <div className="single-business trans-1">
                 <div className="business-icon">
-                  <img src="/assets/img/icons/tax-business3.png" alt="" />
+                  <FileTextIcon size={40} />
                 </div>
                 <h3>SOPs & Operations</h3>
                 <p>Workflow audits, documentation, organization structuring.</p>

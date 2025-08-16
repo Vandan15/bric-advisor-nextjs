@@ -368,16 +368,16 @@ export const TermsArea = () => {
                 <div className="d-flex flex-column gap-2">
                   <div className="d-flex">
                     <EnvelopeIcon size={30} className="flex-shrink-0 me-2" />
-                    <a href="mailto:hello@bricadvisors.com">
-                      hello@bricadvisors.com
+                    <a href="mailto:bricadvisors@gmail.com">
+                      bricadvisors@gmail.com
                     </a>
                   </div>
                   <div className="d-flex">
                     <PhoneIcon size={30} className="flex-shrink-0 me-2" />
-                    <a href="tel:+91 9999999999">+91 9999999999</a>
+                    <a href="tel:+91 8320967688">+91 8320967688</a>
                   </div>
                   {/* <div className="d-flex">
-                    <MapPinIcon size={30} className="flex-shrink-0 me-2" />
+                    <MapPinIcon size  ={30} className="flex-shrink-0 me-2" />
                     <a
                       href="https://maps.app.goo.gl/PqumhPAkgd9vixN77"
                       target="_blank"

@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Welcome() {
   return (
     <>
-      <div className="welcome-area welcome-2 bg5 position-relative" id="home">
+      <div className="welcome-area welcome-2 position-relative" id="home">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
@@ -60,15 +60,15 @@ export default function Welcome() {
                 data-aos="zoom-out"
                 data-aos-duration={800}
               >
-                <div className="hero-main-img position-relative top-right-polygon-1">
+                <div className="hero-main-img position-relative">
                   <img
                     className="border-radius"
-                    src="/assets/img/bg/main2.jpg"
+                    src="/assets/img/bg/networks.jpg"
                     alt=""
                   />
-                  <div className="corner-shape2 position-absolute">
+                  {/* <div className="corner-shape2 position-absolute">
                     <img src="/assets/img/shapes/tax-shape1.png" alt="" />
-                  </div>
+                  </div> */}
                   <div className="corner-right-bottom-shape2 position-absolute">
                     <img
                       src="/assets/img/shapes/shape-right-bottom2.png"
@@ -85,7 +85,7 @@ export default function Welcome() {
           data-aos="fade-down"
           data-aos-duration={400}
         >
-          <Link href="/#about">
+          <Link href="/#about-us">
             <img src="/assets/img/icons/down-arrow-black.svg" alt="" />
           </Link>
         </div>

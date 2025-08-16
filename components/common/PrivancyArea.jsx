@@ -377,8 +377,8 @@ export const PrivacyArea = () => {
                 <h5> Bric Advisor</h5>
                 <div className="d-flex">
                   <EnvelopeIcon size={30} color="#4c2e88" className="flex-shrink-0 me-2" />
-                  <a href="mailto:hello@thelemontheory.com">
-                    hello@bricadvisor.com
+                  <a href="mailto:bricadvisors@gmail.com">
+                    bricadvisors@gmail.com
                   </a>
                 </div>
               </p>

@@ -49,7 +49,7 @@ export default function Footer1() {
                 <div className="footer-menu">
                   <ul>
                     <li>
-                      <Link href="#about-us">About us</Link>
+                      <Link href="/#about-us">About us</Link>
                     </li>
                     <li>
                       <Link href="/#teams">Our Team</Link>
@@ -83,8 +83,8 @@ export default function Footer1() {
                   <div className="single-contact">
                     <div className="single-contact">
                       <PhoneIcon />
-                      <Link href="tel:+91 9999999999" className="mb-0">
-                        +91 9999999999
+                      <Link href="tel:+91 8320967688" className="mb-0">
+                        +91 8320967688
                       </Link>
                     </div>
                   </div>
