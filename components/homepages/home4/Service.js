@@ -21,9 +21,9 @@ export default function Service() {
           <div className="row">
             <div className="col-md-8 m-auto">
               <div className="heading text-center">
-                <small data-aos="fade-up" data-aos-duration={400}>
+                {/* <small data-aos="fade-up" data-aos-duration={400}>
                   See Our Services
-                </small>
+                </small> */}
                 <h2 data-aos="fade-up" data-aos-duration={800}>
                   Our Franchising & Expansion{" "}
                   <span className="heilight-right heading-underline">
@@ -35,7 +35,7 @@ export default function Service() {
           </div>
           <div className="row">
             <div
-              className="col-lg-4 col-md-6"
+              className="col-lg-3 col-md-6"
               data-aos="fade-up"
               data-aos-duration={400}
             >
@@ -50,7 +50,7 @@ export default function Service() {
               </div>
             </div>
             <div
-              className="col-lg-4 col-md-6"
+              className="col-lg-3 col-md-6"
               data-aos="fade-up"
               data-aos-duration={600}
             >
@@ -65,7 +65,7 @@ export default function Service() {
               </div>
             </div>
             <div
-              className="col-lg-4 col-md-6"
+              className="col-lg-3 col-md-6"
               data-aos="fade-up"
               data-aos-duration={800}
             >
@@ -82,7 +82,7 @@ export default function Service() {
               </div>
             </div>
             <div
-              className="col-lg-4 col-md-6"
+              className="col-lg-3 col-md-6"
               data-aos="fade-up"
               data-aos-duration={1000}
             >
@@ -100,7 +100,7 @@ export default function Service() {
               </div>
             </div>
             <div
-              className="col-lg-4 col-md-6"
+              className="col-lg-3 col-md-6"
               data-aos="fade-up"
               data-aos-duration={1200}
             >
@@ -115,7 +115,7 @@ export default function Service() {
               </div>
             </div>
             <div
-              className="col-lg-4 col-md-6"
+              className="col-lg-3 col-md-6"
               data-aos="fade-up"
               data-aos-duration={1400}
             >
@@ -130,9 +130,9 @@ export default function Service() {
               </div>
             </div>
             <div
-              className="col-lg-4 col-md-6"
+              className="col-lg-3 col-md-6"
               data-aos="fade-up"
-              data-aos-duration={1400}
+              data-aos-duration={1200}
             >
               <div className="single-service">
                 <div className="service-icon">
@@ -145,9 +145,9 @@ export default function Service() {
               </div>
             </div>
             <div
-              className="col-lg-4 col-md-6"
+              className="col-lg-3 col-md-6"
               data-aos="fade-up"
-              data-aos-duration={1400}
+              data-aos-duration={1200}
             >
               <div className="single-service">
                 <div className="service-icon">

@@ -1688,6 +1688,7 @@ img {
   font-size: 42px;
   line-height: 48px;
   color: #161540;
+  font-family: "canela";
 }
 @media (max-width: 767px) {
   .heading h2 {
@@ -1776,7 +1777,7 @@ img {
   background-size: contain;
   object-fit: cover;
 }
-@media (max-width: 767px) {
+@media (max-width: 1199px) {
   .heading span.heilight-right:after {
     display: none;
   }
@@ -1840,11 +1841,11 @@ img {
 }
 .heading2 h2 {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 38px;
   line-height: 50px;
   letter-spacing: -1px;
   color: #09120e;
-  font-family: "satoshi";
+  font-family: "canela";
 }
 @media (max-width: 767px) {
   .heading2 h2 {
@@ -2065,7 +2066,7 @@ img {
 .heading4 h2 {
   font-family: "Canela";
   font-weight: 400;
-  font-size: 42px;
+  font-size: 38px;
   line-height: 48px;
   color: #192533;
 }
@@ -6164,13 +6165,17 @@ img.shape-right-bottom {
   left: -100px;
 }
 .counter2 .single-counter {
-  background: #ffffff;
+  background: #eceaf3;
   border-radius: 7px;
-  padding: 30px 40px;
+  padding: 30px 20px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 24px;
 }
-.counter2 .single-counter:last-child {
+/* .counter2 .single-counter:last-child {
   margin-bottom: 0;
-}
+} */
 .counter2 .single-counter h2 {
   font-weight: 700;
   font-size: 20px;
@@ -6181,6 +6186,8 @@ img.shape-right-bottom {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 0;
+  text-align: left;
 }
 .counter2
   .single-counter
@@ -6195,6 +6202,7 @@ img.shape-right-bottom {
   font-size: 20px;
   line-height: 20px;
   color: #515154;
+  margin-bottom: 0;
 }
 .counter2 .conter-icon {
   width: 80px;
@@ -6203,7 +6211,8 @@ img.shape-right-bottom {
   line-height: 80px;
   text-align: center;
   border-radius: 50%;
-  margin: 0 auto 20px;
+  flex-shrink: 0;
+  /* margin: 0 auto 20px; */
 }
 .counter2 .conter-icon img {
   width: 40px;
@@ -6310,12 +6319,13 @@ img.shape-right-bottom {
   transition: all 0.3s;
 }
 .counter2 .single-counter:hover {
-  background: #fba01bcc;
-  transition: all 0.3s;
+  /* background: #fba01bcc; */
+  transition: all 0.1s;
+  box-shadow: 0 4px 25px rgba(242, 57, 54, 0.15);
 }
 .counter2 .single-counter:hover p,
 .counter2 .single-counter:hover h2 {
-  color: #ffffff;
+  /* color: #ffffff; */
   transition: all 0.3s;
 }
 
