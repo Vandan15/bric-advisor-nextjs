@@ -25,9 +25,9 @@ export default function Service() {
                   See Our Services
                 </small>
                 <h2 data-aos="fade-up" data-aos-duration={800}>
-                  We offer wide range{" "}
+                  Our Franchising & Expansion{" "}
                   <span className="heilight-right heading-underline">
-                    of services
+                    Services
                   </span>
                 </h2>
               </div>
