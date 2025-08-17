@@ -30,7 +30,7 @@ export default function Welcome() {
                   data-aos="fade-right"
                   data-aos-duration={1200}
                 >
-                  <Link className="theme-btn-2" href="#">
+                  <Link className="theme-btn-2" href="/#contact">
                     Book a Free Consultation{" "}
                     <span>
                       <i className="fa-solid fa-arrow-right" />
