@@ -24,7 +24,7 @@ export default function Team() {
           </div>
           <div className="row">
             <div
-              className="col-lg-3 col-md-6"
+              className="col-sm-6 col-md-3"
               data-aos="fade-up"
               data-aos-duration={400}
             >
@@ -79,7 +79,7 @@ export default function Team() {
               </div>
             </div>
             <div
-              className="col-lg-3 col-md-6"
+              className="col-sm-6 col-md-3"
               data-aos="fade-up"
               data-aos-duration={600}
             >
@@ -134,7 +134,7 @@ export default function Team() {
               </div>
             </div>
             <div
-              className="col-lg-3 col-md-6"
+              className="col-sm-6 col-md-3"
               data-aos="fade-up"
               data-aos-duration={800}
             >
@@ -189,7 +189,7 @@ export default function Team() {
               </div>
             </div>
             <div
-              className="col-lg-3 col-md-6"
+              className="col-sm-6 col-md-3"
               data-aos="fade-up"
               data-aos-duration={1000}
             >
