@@ -1,5 +1,5 @@
 {
-  "name": "consultia",
+  "name": "bric-advisor-nextjs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,6 +10,7 @@
     "sass": "sass --watch public/assets/scss/main.scss:public/assets/css/main.css"
   },
   "dependencies": {
+    "@phosphor-icons/react": "^2.1.10",
     "aos": "^2.3.4",
     "isotope-layout": "^3.0.6",
     "next": "13.4.19",

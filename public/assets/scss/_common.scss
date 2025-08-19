@@ -10,7 +10,6 @@
   margin: 0 0 0 0 !important;
 }
 
-
 .bg1 {
   background: url("../img/bg/bg1.png") no-repeat;
   background-position: center center;
@@ -32,7 +31,6 @@
   background-position: center center;
   background-size: cover;
 }
-
 
 .bg5 {
   background: url("../img/bg/bg2.png") no-repeat;
@@ -70,7 +68,6 @@
     z-index: -1;
   }
 }
-
 
 .bg8 {
   background: #dcedf3 !important;
@@ -114,7 +111,6 @@
     background-color: #e7e8f4;
   }
 }
-
 
 .bg-14 {
   background: $color8 !important;
@@ -184,10 +180,9 @@
   background-size: contain;
 }
 
-.bg-30{
+.bg-30 {
   background-color: $color26;
 }
-
 
 .ml50 {
   margin-left: 50px;
@@ -203,9 +198,7 @@
   }
 }
 
-
-
-.mt-sm-50{
+.mt-sm-50 {
   @media #{$xm} {
     margin-top: 50px;
   }
@@ -418,13 +411,10 @@
   }
 }
 
-
 .bg_center_cover {
   background-position: center center;
   background-size: cover;
 }
-
-
 
 ._relative {
   position: relative;

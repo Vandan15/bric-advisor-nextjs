@@ -1,9 +1,10 @@
-import Link from "next/link";
+"use client";
+import { CheckCircleIcon } from "@phosphor-icons/react";
 
 export default function About() {
   return (
     <>
-      <div className="about-area section-padding bg5-left">
+      <div className="about-area section-padding" id="about-us">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
@@ -12,48 +13,105 @@ export default function About() {
                 data-aos="zoom-out"
                 data-aos-duration={800}
               >
-                <div className="about-bg-main-img position-relative top-left-polygon-1">
-                  <img src="/assets/img/about/about21.png" alt="" />
+                <div className="about-bg-main-img position-relative">
+                  <img
+                    src="/assets/img/about/foot-prints.jpg"
+                    className="call-img"
+                    alt=""
+                  />
                   <div className="corner-right-bottom-shape2 position-absolute">
                     <img
                       src="/assets/img/shapes/shape-right-bottom2.png"
                       alt=""
                     />
                   </div>
-                  <div className="corner-shape2-left position-absolute">
+                  {/* <div className="corner-shape2-left position-absolute">
                     <img src="/assets/img/shapes/tax-shape2.png" alt="" />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
             <div className="col-lg-6">
               <div className="heading2 no-margin-heading ml50">
-                <small
+                {/* <small
                   data-aos="fade-left"
                   data-aos-duration={600}
                   className="heading-top"
                 >
                   <img src="/assets/img/icons/hands.svg" alt="" />
-                  We Are Here For Your Tax Relief.
-                </small>
+                  From Flagship to Footprint, Why BRIC?
+                </small> */}
                 <h2 data-aos="fade-left" data-aos-duration={800}>
-                  We Handle The Most Tedious Bookkeeping Tasks of Your Business
-                  Operations.
+                  From Flagship to Footprint, Why BRIC?
                 </h2>
                 <p data-aos="fade-left" data-aos-duration={1000}>
-                  Experienced, knowledgeable professionals in Property Tax
-                  Consulting. Our team of Property Tax Consultants is committed
-                  to saving you money by obtaining the lowest possible assessed
-                  value for your commercial or residential properties.
+                  You’ve built a business that works. Now let’s replicate your
+                  winning formula across new markets. BRIC is Surat’s trusted
+                  partner for franchising and scale. We bring together strategy,
+                  process, branding and legal expertise to simplify the complex
+                  so you can expand with confidence.
                 </p>
-                <p data-aos="fade-left" data-aos-duration={1000}>
-                  {" "}
-                  At Resolute we are experienced, knowledgeable professionals
-                  who always stay well-informed on the latest Tax Code changes
-                  in order to maintain our superior customer service.
-                </p>
-                <div className="space50" />
+                {/* <p data-aos="fade-left" data-aos-duration={1000}>
+                  The BRIC Edge
+                </p> */}
                 <div
+                  data-aos="fade-left"
+                  data-aos-duration={1000}
+                  className="mt-2 d-flex flex-column gap-2"
+                >
+                  <div className="d-flex align-items-center gap-2">
+                    <CheckCircleIcon
+                      size={32}
+                      className="flex-shrink-0"
+                      color="#253d31"
+                    />
+                    <p className="mt-0">
+                      End-to-end franchise strategy and execution.
+                    </p>
+                  </div>
+                  <div className="d-flex align-items-center gap-2">
+                    <CheckCircleIcon
+                      size={32}
+                      className="flex-shrink-0"
+                      color="#253d31"
+                    />
+                    <p className="mt-0">
+                      Industry-best documentation, compliance, and SOPs.
+                    </p>
+                  </div>
+                  <div className="d-flex align-items-center gap-2">
+                    <CheckCircleIcon
+                      size={32}
+                      className="flex-shrink-0"
+                      color="#253d31"
+                    />
+                    <p className="mt-0">
+                      Franchise marketing and lead generation.
+                    </p>
+                  </div>
+                  <div className="d-flex align-items-center gap-2">
+                    <CheckCircleIcon
+                      size={32}
+                      className="flex-shrink-0"
+                      color="#253d31"
+                    />
+                    <p className="mt-0">
+                      Ongoing partner onboarding and training.
+                    </p>
+                  </div>
+                  <div className="d-flex align-items-center gap-2">
+                    <CheckCircleIcon
+                      size={32}
+                      className="flex-shrink-0"
+                      color="#253d31"
+                    />
+                    <p className="mt-0">
+                      Network management and revenue tracking.
+                    </p>
+                  </div>
+                </div>
+                <div className="space50" />
+                {/* <div
                   className="button-group"
                   data-aos="fade-left"
                   data-aos-duration={1200}
@@ -64,7 +122,7 @@ export default function About() {
                       <i className="fa-solid fa-arrow-right" />
                     </span>
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
