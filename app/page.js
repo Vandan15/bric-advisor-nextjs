@@ -10,6 +10,7 @@ import Team from "@/components/homepages/home2/Team";
 import Works from "@/components/homepages/home2/Works";
 import Logo from "@/components/homepages/home3/Logo";
 import Service from "@/components/homepages/home4/Service";
+
 export default function Page() {
   return (
     <>
