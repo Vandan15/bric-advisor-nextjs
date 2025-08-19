@@ -34,7 +34,11 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
             <div className="mobile-header-elements">
               <div className="mobile-logo">
                 <Link href="/">
-                  <img src="/assets/img/logo/site-logo-6.svg" alt="" />
+                  <img
+                    src="/assets/img/logo/bric-logo.png"
+                    width={100}
+                    alt=""
+                  />
                 </Link>
               </div>
               <div className="mobile-nav-icon" onClick={handleMobileMenu}>

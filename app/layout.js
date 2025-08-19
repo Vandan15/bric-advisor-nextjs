@@ -15,6 +15,9 @@ export const metadata = {
     "BRIC Consulting | Franchise & Business Expansion Experts | Full-Service Growth Strategy",
   description:
     "BRIC Consulting helps ambitious brands scale with confidence, specializing in franchising, business expansion, strategic growth, branding, legal, and operational excellence.",
+  openGraph: {
+    images: "/assets/og/bric-advisor.png",
+  },
 };
 
 export default function RootLayout({ children }) {

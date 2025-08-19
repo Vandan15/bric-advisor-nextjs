@@ -124,7 +124,7 @@ export default function Footer1() {
             <div className="col-lg-6 text-right">
               <div className="social social2">
                 <ul>
-                  <li>
+                  {/* <li>
                     <Link data-bs-toggle="tooltip" title="Linked in" href="#">
                       <i className="fa-brands fa-linkedin-in" />
                     </Link>
@@ -133,7 +133,7 @@ export default function Footer1() {
                     <Link data-bs-toggle="tooltip" title="Facebook" href="#">
                       <i className="fa-brands fa-facebook-f" />
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link
                       data-bs-toggle="tooltip"
