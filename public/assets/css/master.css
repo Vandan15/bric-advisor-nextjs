@@ -7641,6 +7641,8 @@ img.contact-shape1 {
   background-position: center center;
   background-size: cover;
   border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 @media (max-width: 991px) {
   .work-steps {

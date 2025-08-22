@@ -4,7 +4,7 @@ export default function Works() {
       <div className="work-1 section-padding">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-6">
+            <div className="col-lg-12">
               <div className="heading4 no-margin-heading">
                 <div className="mr50">
                   {/* <small
@@ -14,12 +14,16 @@ export default function Works() {
                   >
                     The BRIC Expansion Process
                   </small> */}
-                  <h2 data-aos="fade-right" data-aos-duration={400}>
+                  <h2
+                    data-aos="fade-right"
+                    data-aos-duration={400}
+                    className="text-center"
+                  >
                     The BRIC Expansion Process
                   </h2>
-                  <p data-aos="fade-right" data-aos-duration={600}>
+                  {/* <p data-aos="fade-right" data-aos-duration={600}>
                     need content here
-                  </p>
+                  </p> */}
                   <div className="space30" />
                   {/* <div
                     className="button-group"
@@ -36,9 +40,9 @@ export default function Works() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-12">
               <div
-                className="work-wrap position-relative ml50"
+                className="work-wrap position-relative"
                 data-aos="zoom-out"
                 data-aos-anchor-placement="top-bottom"
                 data-aos-offset={100}

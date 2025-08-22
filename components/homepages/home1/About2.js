@@ -20,7 +20,7 @@ export default function About2() {
             >
               Results That Speak
             </h2>
-            <p className="text-center">need content here</p>
+            {/* <p className="text-center">need content here</p> */}
           </div>
           <div className="counter2">
             <div className="row">
