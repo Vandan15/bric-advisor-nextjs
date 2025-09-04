@@ -2794,6 +2794,20 @@ img {
   align-items: center;
   height: auto;
 }
+
+.welcome-area .bg-image-wrapper {
+  width: 100%;
+  background: linear-gradient(#07060bad, #07060b24),
+    url("../img/bg/bric-bg-pattern.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome-area .bg-image-wrapper .hero-text,
+.welcome-area .bg-image-wrapper .hero-sub-text {
+  color: white;
+}
+
 @media (max-width: 991px) {
   .welcome-area {
     height: auto;
