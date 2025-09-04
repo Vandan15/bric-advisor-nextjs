@@ -58,7 +58,7 @@ export default function Footer1() {
                     <li>
                       <Link href="/#teams">Our Team</Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link
                         href="/privacy"
                         className={
@@ -75,7 +75,7 @@ export default function Footer1() {
                       >
                         Terms & Conditions
                       </Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
