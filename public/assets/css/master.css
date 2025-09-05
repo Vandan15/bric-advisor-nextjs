@@ -2794,7 +2794,24 @@ img {
   align-items: center;
   height: auto;
 }
+
+.welcome-area .bg-image-wrapper {
+  width: 100%;
+  background: linear-gradient(#07060bad, #07060b24),
+    url("../img/bg/bric-bg-pattern.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome-area .bg-image-wrapper .hero-text,
+.welcome-area .bg-image-wrapper .hero-sub-text {
+  color: white;
+}
+
 @media (max-width: 991px) {
+  .welcome-area .bg-image-wrapper {
+    padding-block: 80px;
+  }
   .welcome-area {
     height: auto;
     padding: 150px 0 100px;
@@ -7641,6 +7658,8 @@ img.contact-shape1 {
   background-position: center center;
   background-size: cover;
   border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 @media (max-width: 991px) {
   .work-steps {

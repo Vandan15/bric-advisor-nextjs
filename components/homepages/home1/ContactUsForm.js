@@ -49,7 +49,7 @@ export default function ContactUsForm() {
     setSuccess(false);
     try {
       const response = await fetch(
-        "https://script.google.com/macros/s/AKfycbzjV8mdl6nF96BZNjpLQs4X9ajgJH88CUfyvnmvJQsdt35wPd_wPoOTFkufDlmIyUgk/exec",
+        "https://script.google.com/macros/s/AKfycbwnqgBr1O9qpbT0jhnQqZZZ0rOpX5Wem4q_CXtFvItvDGq8r5fiQeGbg3EGUa7D4yIY/exec",
         {
           method: "POST",
           headers: {
