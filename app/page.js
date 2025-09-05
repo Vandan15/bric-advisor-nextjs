@@ -17,12 +17,12 @@ export default function Page() {
       <Layout headerStyle={1} footerStyle={1}>
         <Welcome />
         <About />
+        <TaxBusiness />
         <Service />
         <Works />
         <About2 />
         <About3 />
         <Logo />
-        <TaxBusiness />
         <Team />
         <ContactUsForm />
 

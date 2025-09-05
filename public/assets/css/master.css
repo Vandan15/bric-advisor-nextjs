@@ -2809,6 +2809,9 @@ img {
 }
 
 @media (max-width: 991px) {
+  .welcome-area .bg-image-wrapper {
+    padding-block: 80px;
+  }
   .welcome-area {
     height: auto;
     padding: 150px 0 100px;
