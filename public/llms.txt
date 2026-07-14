@@ -1,0 +1,24 @@
+# Bric Advisors
+
+> Bric Advisors is an M&A advisory and consulting firm specializing in the property management industry. We help property management companies grow, improve operations, prepare for sale, acquire businesses, and maximize business value.
+
+## Company
+- https://bricadvisors.com/ : Homepage and company overview.
+- https://bricadvisors.com/about/ : About Bric Advisors, leadership, and mission.
+- https://bricadvisors.com/contact/ : Contact information and consultation requests.
+
+## Services
+- https://bricadvisors.com/mergers-acquisitions/ : Buy-side and sell-side M&A advisory.
+- https://bricadvisors.com/exit-planning/ : Exit planning for property management business owners.
+- https://bricadvisors.com/property-management-consulting/ : Operational consulting and business optimization.
+- https://bricadvisors.com/acquisitions/ : Acquisition strategy and transaction support.
+
+## Resources
+- https://bricadvisors.com/blog/ : Industry insights, M&A trends, and growth strategies.
+- https://bricadvisors.com/sitemap.xml : XML sitemap for all public pages.
+
+## Audience
+Property management company owners, operators, executives, investors, and buyers seeking advisory services.
+
+## Topics
+Property Management, Mergers & Acquisitions, Exit Planning, Business Valuation, Growth Strategy, Operations Consulting, Due Diligence.
